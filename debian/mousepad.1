@@ -1,4 +1,4 @@
-.TH "MOUSEPAD" "1" 
+.TH MOUSEPAD "1" "September 2013" "Mousepad 0.3.0" "User Commands"
 .SH "NAME" 
 mousepad \(em simple text editor for Xfce 
 .SH "SYNOPSIS" 
@@ -12,6 +12,58 @@ This manual page documents briefly the
 .PP 
 \fBmousepad\fR is a simple text 
 editor for the Xfce Desktop Environment. 
+.SS "Usage:"
+.IP
+mousepad [OPTION...] [FILES...]
+.SS "Help Options:"
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+Show help options
+.TP
+\fB\-\-help\-all\fR
+Show all help options
+.TP
+\fB\-\-help\-gtk\fR
+Show GTK+ Options
+.PP
+GTK+ Options
+.TP
+\fB\-\-class\fR=\fICLASS\fR
+Program class as used by the window manager
+.TP
+\fB\-\-name\fR=\fINAME\fR
+Program name as used by the window manager
+.TP
+\fB\-\-screen\fR=\fISCREEN\fR
+X screen to use
+.TP
+\fB\-\-sync\fR
+Make X calls synchronous
+.TP
+\fB\-\-gtk\-module\fR=\fIMODULES\fR
+Load additional GTK+ modules
+.TP
+\fB\-\-g\-fatal\-warnings\fR
+Make all warnings fatal
+.SS "Application Options:"
+.TP
+\fB\-\-disable\-server\fR
+Do not register with the D\-BUS session message bus
+.TP
+\fB\-q\fR, \fB\-\-quit\fR
+Quit a running Mousepad instance
+.TP
+\fB\-v\fR, \fB\-\-version\fR
+Print version information and exit
+.TP
+\fB\-\-display\fR=\fIDISPLAY\fR
+X display to use
+.SH COPYRIGHT
+Copyright \(co 2007
+.IP
+The Xfce development team. All rights reserved.
+.PP
+Please report bugs to <http://bugzilla.xfce.org/>.
  
 .SH "SEE ALSO" 
 .PP 
@@ -26,6 +78,6 @@ later version published by the Free Software Foundation.
  
 .PP 
 On Debian systems, the complete text of the GNU General Public 
-License can be found in /usr/share/common-licenses/GPL. 
+License can be found in /usr/share/common-licenses/GPL-2. 
  
 .\" created by instant / docbook-to-man, Tue 19 Apr 2011, 17:31 

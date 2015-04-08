@@ -1,3 +1,26 @@
+mousepad (0.4.0-trios3) mia; urgency=low
+
+  * Merge changes from experimental:
+
+  [ Jackson Doak ]
+  * Bump standards version to 3.9.4
+  * Update manpage
+  * debian/rules: Add disable-silent-rules
+
+  [ Mateusz Łukasik ]
+  * New upstream release.
+  * Bump standards version to 3.9.6
+  * Switch from libdbus-glib-1-dev to libglib2.0-dev, glib 1 is no-longer used
+
+  [ Yves-Alexis Perez ]
+  * debian/control:
+    - add build-dep on xdt-autogen and dh-autoreconf
+  * debian/rules:
+    - use dh-autoreconf addon to refresh config.{guess,sub}.
+    - fix call to dh_auto_configure.
+
+ -- Filip Danilovic <filip@openmailbox.org>  Wed, 08 Apr 2015 02:59:56 +0100
+
 mousepad (0.4.0-trios2) mia; urgency=low
 
   * Bump standards to 3.9.6

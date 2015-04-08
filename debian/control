@@ -3,7 +3,7 @@ Section: editors
 Priority: optional
 Maintainer: Filip Danilovic <filip@openmailbox.org>
 Build-Depends: debhelper (>= 9), pkg-config, libxml-parser-perl, intltool,
- libgtksourceview2.0-dev, libdbus-glib-1-dev
+ libgtksourceview2.0-dev, libglib2.0-dev, xfce4-dev-tools, dh-autoreconf
 Standards-Version: 3.9.6
 Vcs-Svn: svn://svn.debian.org/pkg-xfce/desktop/trunk/mousepad/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-xfce/desktop/trunk/mousepad/
