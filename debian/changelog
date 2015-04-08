@@ -1,3 +1,9 @@
+mousepad (0.4.0-trios2) mia; urgency=low
+
+  * Bump standards to 3.9.6
+
+ -- Filip Danilovic <filip@openmailbox.org>  Wed, 08 Apr 2015 02:59:56 +0100
+
 mousepad (0.4.0-trios1) mia; urgency=low
 
   * New upstream release.
